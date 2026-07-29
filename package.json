@@ -1,0 +1,12 @@
+{
+  "name": "MedidorDeTemperatura",
+  "version": "1.0.0",
+  "description": "Biblioteca funcional em JavaScript para converter temperaturas entre Celsius, Fahrenheit e Kelvin.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node teste/test.js"
+  },
+  "keywords": ["temperatura", "celsius", "fahrenheit", "kelvin", "conversor"],
+  "license": "MIT",
+  "author": ""
+}
