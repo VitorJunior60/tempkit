@@ -39,9 +39,9 @@ TempKit.convert(212, 'F', 'K'); // 373.15
 
 ## Testes
 
-\`\`\`bash
+```bash
 npm teste
-\`\`\`
+```
 
 ## Licença
 
