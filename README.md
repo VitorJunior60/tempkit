@@ -5,14 +5,14 @@ temperaturas entre **Celsius**, **Fahrenheit** e **Kelvin**.
 
 ## Instalação
 
-\`\`\`bash
+```bash
 git submodule add https://github.com/<seu-usuario>/tempkit-js.git lib/tempkit-js
 git submodule update --init --recursive
-\`\`\`
+```
 
 ## Uso
 
-\`\`\`js
+```js
 const TempKit = require('./lib/tempkit-js');
 
 TempKit.celsiusToFahrenheit(100); // 212
@@ -23,7 +23,7 @@ TempKit.kelvinToCelsius(273.15);  // 0
 // forma genérica
 TempKit.convert(100, 'C', 'F'); // 212
 TempKit.convert(212, 'F', 'K'); // 373.15
-\`\`\`
+```
 
 ## API
 
