@@ -6,7 +6,7 @@ temperaturas entre **Celsius**, **Fahrenheit** e **Kelvin**.
 ## Instalação
 
 ```bash
-git submodule add https://github.com/<VitorJunior60>/tempkit.git lib/tempkit
+git submodule add https://github.com/VitorJunior60/tempkit.git lib/tempkit
 git submodule update --init --recursive
 ```
 
